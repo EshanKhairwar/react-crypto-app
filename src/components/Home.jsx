@@ -1,6 +1,6 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import btcSrc from "../assets/btc (1).png";
+// import btcSrc from "../assets/btc (1).png";
 
 import { motion } from "framer-motion";
 
@@ -26,7 +26,7 @@ const Home = () => {
           w={"full"}
           h={"full"}
           objectFit={"contain"}
-          src={btcSrc}
+          src="https://altcoinsbox.com/wp-content/uploads/2023/02/bitcoin-gold-coin-with-BTC-logo.png"
           filter={"grayscale(1)"}
         />
       </motion.div>
@@ -37,7 +37,7 @@ const Home = () => {
           textAlign={"center"}
           fontWeight={"thin"}
           color={"whiteAlpha.700"}
-          mt={"-20"}
+          mt={"-10"}
         >
           CryptoGram
         </Text>
